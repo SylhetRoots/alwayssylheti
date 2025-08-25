@@ -1,0 +1,6 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'>
+ <rect width='800' height='500' fill='#f7f9fb'/>
+ <rect x='60' y='60' width='680' height='380' fill='white' stroke='#e5e7eb'/>
+ <text x='90' y='120' font-size='28' fill='#006A4E' font-weight='600'>Youth Workshop</text>
+</svg>

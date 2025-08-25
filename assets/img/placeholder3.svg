@@ -1,0 +1,6 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'>
+ <rect width='800' height='500' fill='#f7f9fb'/>
+ <circle cx='400' cy='250' r='160' fill='#006A4E' opacity='.15'/>
+ <text x='220' y='260' font-size='36' fill='#1F2937' font-weight='600'>Cultural Night</text>
+</svg>
