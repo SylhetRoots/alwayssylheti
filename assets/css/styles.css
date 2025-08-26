@@ -1,10 +1,9 @@
 
 :root {
-  --primary: #4A0D67;
-  --secondary: #FFFFFF;
-  --accent: #000000;
-  --light: #F5F5F5;
-  
+  --primary: #6A0DAD;     /* Deep Purple */
+  --secondary: #FFFFFF;   /* White */
+  --accent: #000000;      /* Black for text */
+  --light: #F3E5F5;       /* Light lavender background */
 }
 * { box-sizing: border-box; }
 body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--accent); background: var(--light); }
