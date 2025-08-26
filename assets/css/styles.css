@@ -1,22 +1,17 @@
 
 :root {
-  --primary: #6A0DAD;     /* Deep Purple */
-  --secondary: #FFFFFF;   /* White */
-  --accent: #FFD700;      /* Gold */
-  --dark: #1F2937;        /* Text color */
-  --light: #F3E5F5;       /* Light lavender background */
+  --primary: #4A0D67;
+  --secondary: #FFFFFF;
+  --accent: #000000;
+  --light: #F5F5F5;
+  
 }
 * { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  color: var(--accent);
-  background: var(--light);
-}
+body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--accent); background: var(--light); }
 .container { width: min(1100px, 92%); margin: 0 auto; }
 .topbar { background: white; border-bottom: 1px solid #e5e7eb; position: sticky; top:0; z-index: 10; }
 .topbar .container { display:flex; align-items:center; justify-content: space-between; padding: .8rem 0; }
-.brand { font-weight: 700; text-decoration:none; color: var(--green); }
+.brand { font-weight: 700; text-decoration:none; color: var(--primary); }
 .nav a { margin-left: 1rem; text-decoration:none; color:#374151; padding:.4rem .6rem; border-radius: .375rem; }
 .nav a:hover { background: #f1f5f9; }
 .nav-toggle { display:none; border:none; background:transparent; font-size:1.4rem; }
@@ -27,10 +22,10 @@ body {
 .sub { color:#475569; margin-top:.3rem; }
 .cta { margin-top:1rem; }
 .btn { display:inline-block; padding:.75rem 1.1rem; border-radius:.6rem; text-decoration:none; font-weight:600; }
-.btn.primary { background: var(--green); color:white; }
-.btn.outline { border:2px solid var(--green); color: var(--green); }
+.btn.primary { background: var(--primary); color:white; }
+.btn.outline { border:2px solid var(--primary); color: var(--primary); }
 .btn.primary:hover { filter: brightness(1.05); }
-.btn.outline:hover { background: var(--green); color:white; }
+.btn.outline:hover { background: var(--primary); color:white; }
 
 .features { padding: 2rem 0; }
 .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
