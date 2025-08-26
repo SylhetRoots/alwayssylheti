@@ -7,7 +7,12 @@
   --light: #F3E5F5;       /* Light lavender background */
 }
 * { box-sizing: border-box; }
-body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--dark); background: var(--light); }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--accent);
+  background: var(--light);
+}
 .container { width: min(1100px, 92%); margin: 0 auto; }
 .topbar { background: white; border-bottom: 1px solid #e5e7eb; position: sticky; top:0; z-index: 10; }
 .topbar .container { display:flex; align-items:center; justify-content: space-between; padding: .8rem 0; }
